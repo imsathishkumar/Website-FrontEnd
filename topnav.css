@@ -1,0 +1,122 @@
+@font-face
+{
+font-family: myCustom;
+src:url(font.ttf);
+}
+
+#topnav
+{
+    background-color: #333;
+    overflow: hidden;
+}
+#topnav a
+{
+float:right;
+display:block;
+color:#f2f2f2;
+text-align: center;
+padding: 14px 16px;
+font-size: 17px;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#topnav a.logo
+{
+    margin-top: 3pt;
+    font-family: myCustom;
+    font-weight: 600;
+    float: left;
+}
+
+#topnav-right
+{
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    #topnav a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #topnav-right {
+      float: none;
+    }
+  }
+
+#topnav a:hover
+{
+    background-color: rgb(33, 219, 89, 0.548);
+    color:white;
+}
+body
+{
+    margin: 0px;  
+}
+
+.content 
+{
+    padding: 16px;
+    font-size: 300px;
+}
+  
+.sticky
+  {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.sticky + .content {
+    padding-top: 60px;
+  }
+
+  .sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .icon
+  {
+    font-size:30px;
+    cursor:pointer;
+    color:white;
+    float:left;
+    margin-left: 10pt;
+    margin-top: 3pt;
+  }

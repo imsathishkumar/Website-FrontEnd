@@ -1,0 +1,77 @@
+<html>
+<head>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+            
+       
+            <div id="nav-placeholder">
+                
+                </div>
+                  <script>
+                $(function(){
+                  $("#nav-placeholder").load("topnav.html");
+                });
+
+                </script> 
+                <div class="row">
+                    <div class="topspacing"></div>
+                  </div>
+                <div class="row">
+                    <div class="col-s-2 col-5"></div>
+                   <div class="col-s-11 col-3">
+                      <form action="">
+                          <div class= "container">
+                               <h2 class="login_title">Farmer Login</h2>
+                               <hr>
+                               <label class="label" for="frmemail">Email</label>
+                               <br>
+                               <input type="text" name="frmemail" required>
+                               <br>
+                               <label class="label" for="frmpassword">Password</label>
+                               <br>
+                               <input type="password"  name="frmpassword" required>
+                               <br>
+                               
+                               <button type="submit" class="loginbtn">Login</button>
+                               <br>
+                               <label class=info > Are you a new user ? Please register.</label>
+                               <br>
+                               <button type="button" class="registerbtn">Register</button>
+                           </div>
+                        </form>
+                   </div>
+                   <div class="col-s-6 col-1"></div>
+                   <div class="col-s-11 col-3">
+                   <form action="">
+                         <div class= "container">
+                              <h2 class="login_title">Customer Login</h2>
+                              <hr>
+                              <label class="label" for="email">Email</label>
+                              <br>
+                              <input type="text" name="email" required>
+                              <br>
+                              <label class="label" for="password">Password</label>
+                              <br>
+                              <input type="password"  name="password" required>
+                              <br>
+                              
+                              <button type="submit" class="loginbtn">Login</button>
+                              <br>
+                              <label class=info > Are you a new user ? Please register.</label>
+                              <br>
+                              <button type="button" class="registerbtn">Register</button>
+                          </div>
+                       </form>
+                      </div>
+                  </div>
+                  
+                  
+                  
+                     
+                    
+    </body>
+</html>
